@@ -39,7 +39,7 @@ public class TestAPIs {
     FileInputStream fs;
 
     //TODO - Move to a helper class and remove from test set.
-    @Test
+
     public void testProperty() throws IOException {
         fs = new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\java\\configuration\\api.properties");
         properties = new Properties();
@@ -67,8 +67,6 @@ public class TestAPIs {
                 {"ca", "B2R", "Waverley"}
         };
     }
-
-
 
     @Test
     @UseDataProvider("zipCodesAndPlaces")

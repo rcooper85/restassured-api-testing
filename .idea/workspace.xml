@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="891ac961-1904-4c71-88c8-5f7a3734358a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/payloads/BookingPayload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payloads/BookingPayload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/configuration/api.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/configuration/api.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/examples/TestAPIs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/examples/TestAPIs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/examples/TestBookingApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/examples/TestBookingApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/BookingApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/BookingApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/payloads/AuthPayload.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/payloads/AuthPayload.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/payloads/AuthResponsePayload.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/payloads/AuthResponsePayload.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/payloads/BookingDatesPayload.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/payloads/BookingDatesPayload.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/payloads/BookingPayload.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/payloads/BookingPayload.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/examples/TestAPIs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/examples/TestAPIs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/examples/TestBookingApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/examples/TestBookingApi.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,12 +62,26 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="JUnit.TestCoronaApi.testCoronaDeaths (1)">
+  <component name="RunManager" selected="Application.ReadConfigMain">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="ReadConfigMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="configuration.ReadConfigMain" />
+      <module name="restassured-api-testing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="configuration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -83,40 +106,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBookingApi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api-test-framework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="examples" />
-      <option name="MAIN_CLASS_NAME" value="examples.TestBookingApi" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCoronaApi.corona" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api-test-framework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="examples" />
-      <option name="MAIN_CLASS_NAME" value="examples.TestCoronaApi" />
-      <option name="METHOD_NAME" value="corona" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCoronaApi.testCoronaDeaths (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBookingApi.deleteBookingReturns201" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restassured-api-testing" />
       <extension name="coverage">
         <pattern>
@@ -125,16 +115,33 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="examples" />
-      <option name="MAIN_CLASS_NAME" value="examples.TestCoronaApi" />
-      <option name="METHOD_NAME" value="testCoronaDeaths" />
+      <option name="MAIN_CLASS_NAME" value="examples.TestBookingApi" />
+      <option name="METHOD_NAME" value="deleteBookingReturns201" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCoronaApi.testCoronaDeaths" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api-test-framework" />
+    <configuration name="TestBookingApi.getBookingsReturns200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restassured-api-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="examples" />
+      <option name="MAIN_CLASS_NAME" value="examples.TestBookingApi" />
+      <option name="METHOD_NAME" value="getBookingsReturns200" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCoronaApi.testCoronaDeaths (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restassured-api-testing" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="examples.*" />
@@ -202,20 +209,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestCoronaApi.testCoronaDeaths" />
-      <item itemvalue="JUnit.TestBookingApi" />
-      <item itemvalue="JUnit.TestCoronaApi.corona" />
       <item itemvalue="Maven.api-test-framework [clean,test]" />
       <item itemvalue="JUnit.TestAPIs.testProperty" />
       <item itemvalue="JUnit.TestCoronaApi.testCoronaDeaths (1)" />
+      <item itemvalue="JUnit.TestBookingApi.deleteBookingReturns201" />
+      <item itemvalue="Application.ReadConfigMain" />
+      <item itemvalue="JUnit.TestBookingApi.getBookingsReturns200" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadConfigMain" />
         <item itemvalue="JUnit.TestCoronaApi.testCoronaDeaths (1)" />
+        <item itemvalue="JUnit.TestBookingApi.getBookingsReturns200" />
+        <item itemvalue="JUnit.TestBookingApi.deleteBookingReturns201" />
         <item itemvalue="JUnit.TestAPIs.testProperty" />
-        <item itemvalue="JUnit.TestCoronaApi.testCoronaDeaths" />
-        <item itemvalue="JUnit.TestCoronaApi.corona" />
-        <item itemvalue="JUnit.TestBookingApi" />
       </list>
     </recent_temporary>
   </component>
@@ -238,10 +245,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="92" y="92" width="1416" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1600.860@0.0.1600.860" timestamp="1585582757168" />
-    <state x="605" y="146" key="#com.intellij.ide.util.MemberChooser" timestamp="1585582093641">
+    <state x="605" y="146" key="#com.intellij.ide.util.MemberChooser" timestamp="1585665870193">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="605" y="146" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1585582093641" />
+    <state x="605" y="146" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1585665870193" />
     <state x="480" y="158" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585307880855">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -250,22 +257,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="121" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1585313686580" />
-    <state width="1557" height="225" key="GridCell.Tab.0.bottom" timestamp="1585662903932">
+    <state width="1557" height="225" key="GridCell.Tab.0.bottom" timestamp="1585669680068">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="225" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585662903932" />
-    <state width="1557" height="225" key="GridCell.Tab.0.center" timestamp="1585662903932">
+    <state width="1557" height="225" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585669680068" />
+    <state width="1557" height="225" key="GridCell.Tab.0.center" timestamp="1585669680067">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="225" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1585662903932" />
-    <state width="1557" height="225" key="GridCell.Tab.0.left" timestamp="1585662903932">
+    <state width="1557" height="225" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1585669680067" />
+    <state width="1557" height="225" key="GridCell.Tab.0.left" timestamp="1585669680067">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="225" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1585662903932" />
-    <state width="1557" height="225" key="GridCell.Tab.0.right" timestamp="1585662903932">
+    <state width="1557" height="225" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1585669680067" />
+    <state width="1557" height="225" key="GridCell.Tab.0.right" timestamp="1585669680068">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="225" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1585662903932" />
+    <state width="1557" height="225" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1585669680068" />
     <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1585312330960">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
