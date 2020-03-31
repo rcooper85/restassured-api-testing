@@ -38,6 +38,7 @@ public class TestAPIs {
     Properties properties;
     FileInputStream fs;
 
+    //TODO - Move to a helper class and remove from test set.
     @Test
     public void testProperty() throws IOException {
         fs = new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\java\\configuration\\api.properties");
@@ -54,6 +55,10 @@ public class TestAPIs {
     }
 
 
+    /**
+     * DataProvider object to be used to parameterise API tests for zippopotam tests.
+     * @return Object containing test data.
+     */
     @DataProvider
     public static Object[][] zipCodesAndPlaces() {
         return new Object[][] {

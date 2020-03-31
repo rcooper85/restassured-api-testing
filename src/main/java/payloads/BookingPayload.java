@@ -30,6 +30,15 @@ public class BookingPayload {
     private String additionalneeds;
 
 
+    /**
+     * A constructor for the BookingPauload class.
+     * @param firstname String to appear on booking
+     * @param lastname String to appear on booking
+     * @param totalprice int to appear on booking
+     * @param depositpaid Boolean true/false
+     * @param bookingdates BooklingDatesPayload object that contains the data for booking dates.
+     * @param additionalneeds String to appear on booking
+     */
     public BookingPayload(String firstname, String lastname, int totalprice, Boolean depositpaid, BookingDatesPayload bookingdates, String additionalneeds) {
         this.firstname = firstname;
         this.lastname = lastname;

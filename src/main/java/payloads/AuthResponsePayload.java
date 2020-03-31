@@ -11,6 +11,10 @@ public class AuthResponsePayload {
     @JsonProperty
     private String token;
 
+    /**
+     * A getter to obtain the token.
+     * @return String token
+     */
     public String getToken() {
         return token;
     }
