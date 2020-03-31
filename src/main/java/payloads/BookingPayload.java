@@ -31,12 +31,12 @@ public class BookingPayload {
 
 
     /**
-     * A constructor for the BookingPauload class.
+     * A constructor for the BookingPayload class.
      * @param firstname String to appear on booking
      * @param lastname String to appear on booking
      * @param totalprice int to appear on booking
      * @param depositpaid Boolean true/false
-     * @param bookingdates BooklingDatesPayload object that contains the data for booking dates.
+     * @param bookingdates BookingDatesPayload object that contains the data for booking dates.
      * @param additionalneeds String to appear on booking
      */
     public BookingPayload(String firstname, String lastname, int totalprice, Boolean depositpaid, BookingDatesPayload bookingdates, String additionalneeds) {

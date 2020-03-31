@@ -16,6 +16,7 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class TestBookingApi {
 
+
     @Test
     public void getBookingsReturns200() {
         Response response = BookingApi.getBookings();

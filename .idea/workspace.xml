@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="891ac961-1904-4c71-88c8-5f7a3734358a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/AuthApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/AuthApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/BaseApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/BaseApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/BookingApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/BookingApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/payloads/AuthPayload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payloads/AuthPayload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/payloads/AuthResponsePayload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payloads/AuthResponsePayload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/payloads/BookingDatesPayload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payloads/BookingDatesPayload.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/payloads/BookingPayload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/payloads/BookingPayload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/examples/TestAPIs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/examples/TestAPIs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/examples/TestBookingApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/examples/TestBookingApi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
